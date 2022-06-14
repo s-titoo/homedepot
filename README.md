@@ -35,7 +35,7 @@ from `requirements.txt`.
    * Make sure sub department links are relevant
    * Update list of brand names for each sub department
    * Use the same keys in `sub_deps` and `brands` dictionaries (e.g. "Dishwasher")
-2. Run Scrapy from the root `homedepot` folder using terminal:
+2. Run Scrapy from the root `webscraper` folder using terminal:
    * `scrapy crawl homedepot -O products.csv -a sub_dep=dishwasher --logile homedepot_log.txt`
    * Run`homedepot` spider for `dishwashers` sub department and save results into
    `products.csv`. Optionally you can also redirect logs to `homedepot_log.txt`.
